@@ -11,7 +11,7 @@ import numpy as np
 import sklearn
 
 
-model=pickle.load(open('C:/Users/sarkar/rf.pkl','rb'))
+model=pickle.load(open('C:/Users/SARKAR/rf.pkl','rb'))
 
 
 
