@@ -11,12 +11,11 @@ import numpy as np
 import sklearn
 
 
-model=pickle.load(open('C:/Users/SARKAR/rf.pkl','rb'))
+model=pickle.load(open('C:/Users/SARKAR/energyprediction/rf.pkl','rb'))
 
 
 
-def main():
-    st.title("Electrical Enegry Production")
+
  
     
 def user_input():
@@ -52,6 +51,5 @@ def user_input():
     st.subheader('energy predicted')
     st.subheader('MW'+str(np.round(energy[0],2)))
    
-if __name__=='__main__':
-    main()
+
 
